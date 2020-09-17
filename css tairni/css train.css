@@ -16,6 +16,16 @@ a {
     transition: 0.2s ease-out;
 }
 
+.navi{
+    width: 15%;
+    background-color: #909090;
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    background-image: url(/img/bg-jak.jpg); 
+    font-weight: 900;
+}
+
 
 /*убирает лишние отступы, ширина элемента не будет больше чем в параметре width */
 * {
@@ -23,7 +33,16 @@ a {
 }
 
 
-.head{
+.head {
 
     background-color: rgb(225, 222, 231); width: auto; height: 150px;
+}
+
+.referen1 {
+
+    width: 60%;
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    background-color: #E7E7E7;
 }
