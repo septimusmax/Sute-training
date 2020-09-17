@@ -1,5 +1,29 @@
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+    /*шрифт**/
+    font-size: 16 px;
+    /*размер шрифтат**/
+    line-height: 1.5;
+    /*Устанавливает интерлиньяж (межстрочный интервал) текста, отсчет ведется от базовой линии шрифта. Отрицательное значение межстрочного расстояния не допускается.**/
+    min-width: 280px;
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    transition: 0.2s ease-out;
+}
+
+
+/*убирает лишние отступы, ширина элемента не будет больше чем в параметре width */
+* {
+    box-sizing: border-box;
+}
+
 
 .head{
 
-    background-color: bisque;
+    background-color: rgb(225, 222, 231); width: auto; height: 150px;
 }
